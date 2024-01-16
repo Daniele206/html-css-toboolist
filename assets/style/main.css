@@ -6,10 +6,11 @@
 
 body{
   font-family: 'Roboto', sans-serif;
+  background-color: #F6F8F9;
 }
 
 #up{
-  background-color: yellow;
+  background-color: #FFFFFF;
   height: 100px;
 }
 
@@ -21,5 +22,41 @@ body{
 #title{
   font-size: 55px;
   font-weight: bold;
-  
+}
+
+main{
+  width: 70%;
+  margin: auto;
+  margin-top: 60px;
+}
+
+.content{
+  height: 70px;
+  background-color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  border-radius: 5px 5px 0 0;
+  position: relative;
+}
+
+.content .add{
+  display: inline-block ;
+  position: absolute;
+  top: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  line-height: 40px;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.task{
+  color: #FFFFFF;
+  left: 60px;
+  background-color: #45ABEA;
+}
+
+.section{
+  color: #CFD4D8;
+  left: 180px;
+  border: 1px solid #CFD4D8;
 }
