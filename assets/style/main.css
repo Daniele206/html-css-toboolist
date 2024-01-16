@@ -30,6 +30,7 @@ main{
   width: 70%;
   margin: auto;
   margin-top: 60px;
+  margin-bottom: 20px;
 }
 
 .content{
@@ -68,6 +69,7 @@ main{
   width: 100%;
   background-color: #FFFFFF;
   border-radius: 0 0 10px 10px;
+  padding-bottom: 40px;
 }
 
 .new-task{
@@ -132,4 +134,12 @@ main{
 
 .check .arancione{
   background-color: #F29E33;
+}
+
+.check .rosa{
+  background-color: #D863A1;
+}
+
+.check .lime{
+  background-color: #B0C926;
 }
