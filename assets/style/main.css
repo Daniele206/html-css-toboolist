@@ -34,7 +34,7 @@ main{
   height: 70px;
   background-color: #FFFFFF;
   border: 1px solid #FFFFFF;
-  border-radius: 5px 5px 0 0;
+  border-radius: 10px 10px 0 0;
   position: relative;
 }
 
@@ -59,4 +59,52 @@ main{
   color: #CFD4D8;
   left: 180px;
   border: 1px solid #CFD4D8;
+}
+
+.list{
+  margin-top: 10px;
+  width: 100%;
+  background-color: #FFFFFF;
+  border-radius: 0 0 10px 10px;
+}
+
+.new-task{
+  color: #424650;
+  padding-left: 60px;
+  padding-top: 40px;
+}
+
+.incipit{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.incipit span{
+  font-size: 50px;
+}
+
+.check{
+  list-style: none;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.check .cerchio{
+  border:1px solid;
+  border-radius: 50%;
+  font-size: 15px;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.check .si{
+  border-color: green;
+  color: green;
+}
+
+.check .flag{
+  padding: 8px;
+  background-color: #45ABEA;
+  font-size: 15px;
+  border-radius: 10px;
 }
